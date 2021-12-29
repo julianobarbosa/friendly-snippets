@@ -58,6 +58,10 @@
         "path": "./snippets/fortran.json"
       },
       {
+        "language": "kubernetes",
+        "path": "./snippets/kubernetes.json"
+      },
+      {
         "language": "glsl",
         "path": "./snippets/glsl.json"
       },
