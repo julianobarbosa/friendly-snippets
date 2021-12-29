@@ -58,7 +58,11 @@
         "path": "./snippets/fortran.json"
       },
       {
-        "language": "kubernetes",
+        "language": [
+          "kubernetes",
+          "yaml",
+          "yml",
+        ],
         "path": "./snippets/kubernetes.json"
       },
       {
