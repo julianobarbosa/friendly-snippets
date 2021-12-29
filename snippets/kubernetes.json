@@ -13,6 +13,30 @@
     ],
     "description": "Code snippet for a ConfigMap definition"
   },
+  "ingress": {
+    "prefix": "ingress",
+    "body": [
+      "---",
+      "apiVersion: networking.k8s.io/v1beta1",
+      "kind: Ingress",
+      "metadata:",
+      "  name: ${1:ingressname}",
+      "spec:",
+      "  rules:",
+      "  - host: ${2:ingressfqdn}",
+      "    http:",
+      "      paths:",
+      "      - path: ${3:ingresspath}",
+      "        backend:",
+      "          serviceName: ${4:ingresssvcname}",
+      "          servicePort: ${5:ingresssvcport}",
+      "  tls:",
+      "  - hosts:",
+      "    - ${6:ingressfqdntls}",
+      "    secretName: ${7:ingresstlsname}"
+    ],
+    "description": "Code snippet for a Ingress definition"
+  },
   "res": {
     "prefix": "res",
     "body": [
