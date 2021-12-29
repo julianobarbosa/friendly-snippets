@@ -61,7 +61,7 @@
         "language": [
           "kubernetes",
           "yaml",
-          "yml",
+          "yml"
         ],
         "path": "./snippets/kubernetes.json"
       },
