@@ -35,8 +35,8 @@
       "metadata:",
       "  name: ${1:secretname}",
       "data:",
-      "  username: am9obg== # (echo "john"   | base64)",
-      "  password: Zm9vYmFy # (echo "foobar" | base64)"
+      "  username: am9obg== # (echo 'john'   | base64)",
+      "  password: Zm9vYmFy # (echo 'foobar' | base64)"
     ],
     "description": "Code snippet for a Secret definition"
   }
